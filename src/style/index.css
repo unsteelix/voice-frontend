@@ -1,0 +1,27 @@
+@import "configs/color";
+@import "configs/font-faces";
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2vw;
+  
+  width: 100vw;
+  height: 100vh;
+  
+
+  .content {
+    height: 100%;
+    width: 100%;
+  }
+
+  h1, h2 {
+    /* This is how you use custom fonts */
+    font-family: YourFavoriteFont;
+  }
+}

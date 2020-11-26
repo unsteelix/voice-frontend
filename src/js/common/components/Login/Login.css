@@ -1,0 +1,28 @@
+.login {
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .textBlock{
+    margin: 1rem;
+  }
+
+  .inputBlock{
+
+    input{
+      height: 3vw;
+      font-size: 2rem;
+
+    }
+  }
+
+  .button{
+    margin: 1rem;
+  }
+}
+
